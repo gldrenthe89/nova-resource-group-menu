@@ -2,10 +2,10 @@
 
 namespace SaintSystems\Nova\ResourceGroupMenu;
 
+use Laravel\Nova\Card;
 use Laravel\Nova\Nova;
-use Laravel\Nova\Tool;
 
-class ResourceGroupMenu extends Tool
+class ResourceGroupMenu extends Card
 {
     /**
      * Perform any tasks that need to happen when the tool is booted.
